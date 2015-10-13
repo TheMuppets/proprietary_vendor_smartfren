@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartfren/rendang/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/smartfren/rendang/proprietary/bin/vm_bms:system/bin/vm_bms \
     vendor/smartfren/rendang/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/smartfren/rendang/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -158,6 +159,31 @@ PRODUCT_COPY_FILES += \
     vendor/smartfren/rendang/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/smartfren/rendang/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     vendor/smartfren/rendang/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
+    vendor/smartfren/rendang/proprietary/bin/imscmservice:system/bin/imscmservice \
+    vendor/smartfren/rendang/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
+    vendor/smartfren/rendang/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/smartfren/rendang/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/smartfren/rendang/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/smartfren/rendang/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
