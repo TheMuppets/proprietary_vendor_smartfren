@@ -39,11 +39,4 @@ PRODUCT_PACKAGES += \
     libHevcSwDecoder \
     libtime_genoff
 
-PRODUCT_PACKAGES += \
-    CNEService \
-    cneapiclient \
-    com.quicinc.cne \
-    com.qti.dpmframework \
-    dpmapi
-
 $(call inherit-product, vendor/smartfren/rendang/rendang-vendor-blobs.mk)
